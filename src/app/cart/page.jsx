@@ -7,7 +7,7 @@ import { Divider, Button } from '@mui/material';
 import { Remove, Add } from '@mui/icons-material';
 import { createCheckout, addLineItems } from '@/actions/queryStore';
 
-const page = () => {
+const Page = () => {
   const appCtx = useContext(ctx);
   const router = useRouter();
 
@@ -104,4 +104,4 @@ const page = () => {
   )
 }
 
-export default page;
+export default Page;
